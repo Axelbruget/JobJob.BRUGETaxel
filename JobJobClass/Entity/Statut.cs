@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace JobJobClass.Entity
 {
-    class Statut
+    public class Statut
     {
+        private int Id { get; set; }
+
+        private String Libelle { get; set; }
     }
 }

@@ -1,0 +1,17 @@
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\bin\Debug\Database1.mdf
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\bin\Debug\Database1_log.ldf
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\bin\Debug\JobJobConsole.exe.config
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\bin\Debug\JobJobConsole.exe
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\bin\Debug\JobJobConsole.pdb
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\bin\Debug\EntityFramework.dll
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\bin\Debug\JobJobClass.dll
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\bin\Debug\JobJobClass.pdb
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\bin\Debug\JobJobClass.dll.config
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\bin\Debug\EntityFramework.xml
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\obj\Debug\JobJobConsole.csprojAssemblyReference.cache
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\obj\Debug\JobJobConsole.csproj.CoreCompileInputs.cache
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\obj\Debug\JobJobConsole.csproj.CopyComplete
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\obj\Debug\JobJobConsole.exe
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobConsole\obj\Debug\JobJobConsole.pdb

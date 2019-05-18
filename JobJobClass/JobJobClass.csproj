@@ -63,6 +63,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mapping\AppContexte.cs" />
     <Compile Include="Entity\Employe.cs" />
     <Compile Include="Entity\Experience.cs" />
     <Compile Include="Entity\Formation.cs" />

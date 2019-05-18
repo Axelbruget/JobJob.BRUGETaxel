@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace JobJobClass.Entity
 {
-    class Employe
+    public class Employe
     {
+        private int Id { get; set; }
+
+        private String Nom { get; set; }
+        
+        private String Prenom { get; set; }
+        
+        private DateTime DateNaissance { get; set; }
+        
+        private String Anciennete { get; set; }
+        
+        private String Biographie { get; set; }
     }
 }
