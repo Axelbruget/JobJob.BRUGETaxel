@@ -9,13 +9,14 @@ namespace JobJobClass.Entity
 {
     public class Formation
     {
-        private int Id { get; set; }
+        public int Id { get; set; }
 
-        [ForeignKey("employeId")]
-        private Employe Employe { get; set; }
+        public int EmployeId { get; set; }
+        [ForeignKey("EmployeId")]
+        public Employe Employe { get; set; }
 
-        private String Intitule { get; set; }
+        public String Intitule { get; set; }
 
-        private DateTime Date { get; set; }
+        public DateTime Date { get; set; }
     }
 }

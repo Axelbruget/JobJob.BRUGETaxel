@@ -8,16 +8,16 @@ namespace JobJobClass.Entity
 {
     public class Employe
     {
-        private int Id { get; set; }
+        public int Id { get; set; }
 
-        private String Nom { get; set; }
+        public String Nom { get; set; }
         
-        private String Prenom { get; set; }
+        public String Prenom { get; set; }
         
-        private DateTime DateNaissance { get; set; }
+        public DateTime DateNaissance { get; set; }
         
-        private String Anciennete { get; set; }
+        public String Anciennete { get; set; }
         
-        private String Biographie { get; set; }
+        public String Biographie { get; set; }
     }
 }

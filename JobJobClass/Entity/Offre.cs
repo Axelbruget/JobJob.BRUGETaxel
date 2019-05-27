@@ -11,19 +11,20 @@ namespace JobJobClass.Entity
 {
     public class Offre
     {
-        private int Id { get; set; }
-        
-        private String Intitule { get; set; }
-        
-        private DateTime Date { get; set; }
-        
-        private float Salaire { get; set; }
-        
-        private String Description { get; set; }
-        
-        [ForeignKey("statutId")]
-        private Statut Statut { get; set; }
+        public int Id { get; set; }
 
-        private String Responsable { get; set; }
+        public String Intitule { get; set; }
+
+        public DateTime Date { get; set; }
+
+        public Double Salaire { get; set; }
+
+        public String Description { get; set; }
+
+        public int StatutId { get; set; }
+        [ForeignKey("StatutId")]
+        public Statut Statut { get; set; }
+
+        public String Responsable { get; set; }
     }
 }

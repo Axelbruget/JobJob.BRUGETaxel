@@ -10,6 +10,11 @@ namespace JobJobClass.Mapping
 {
     public class AppContexte : DbContext
     {
+        public AppContexte() : base("name=DatabaseConnexion")
+        {
+
+        }
+
         public DbSet<Employe> Employes { get; set; }
         public DbSet<Experience> Experiences { get; set; }
         public DbSet<Formation> Formations { get; set; }

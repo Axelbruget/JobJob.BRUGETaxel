@@ -8,8 +8,8 @@ namespace JobJobClass.Entity
 {
     public class Statut
     {
-        private int Id { get; set; }
+        public int Id { get; set; }
 
-        private String Libelle { get; set; }
+        public String Libelle { get; set; }
     }
 }

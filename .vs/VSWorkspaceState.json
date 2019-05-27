@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\packages\\EntityFramework.6.2.0"
+    "\\JobJobClass",
+    "\\JobJobTest"
   ],
+  "SelectedNode": "\\JobJobTest\\JobJobTest.csproj",
   "PreviewInSolutionExplorer": false
 }

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobJobTest", "JobJobTest\Jo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobJobConsole", "JobJobConsole\JobJobConsole.csproj", "{0469CDDA-89C9-42CC-99C4-48BC3EDB7E17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobJobService", "JobJobService\JobJobService.csproj", "{86B55A97-2D35-481D-8A70-340F87A6E244}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0469CDDA-89C9-42CC-99C4-48BC3EDB7E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0469CDDA-89C9-42CC-99C4-48BC3EDB7E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0469CDDA-89C9-42CC-99C4-48BC3EDB7E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B55A97-2D35-481D-8A70-340F87A6E244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B55A97-2D35-481D-8A70-340F87A6E244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B55A97-2D35-481D-8A70-340F87A6E244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B55A97-2D35-481D-8A70-340F87A6E244}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

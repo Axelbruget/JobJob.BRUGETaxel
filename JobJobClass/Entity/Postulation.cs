@@ -9,15 +9,18 @@ namespace JobJobClass.Entity
 {
     public class Postulation
     {
-        [ForeignKey("offreId")]
-        private Offre Offre { get; set; }
+        public int Id { get; set; }
+        public int OffreId { get; set; }
+        [ForeignKey("OffreId")]
+        public Offre Offre { get; set; }
 
-        [ForeignKey("employeId")]
-        private Employe Employe { get; set; }
+        public int EmployeId { get; set; }
+        [ForeignKey("EmployeId")]
+        public Employe Employe { get; set; }
 
-        private DateTime Date { get; set; }
+        public DateTime Date { get; set; }
 
-        private String Statut { get; set; }
+        public String Statut { get; set; }
 
     }
 }
