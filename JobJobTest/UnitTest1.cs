@@ -12,6 +12,8 @@ namespace JobJobTest
         [TestMethod]
         public void AddOffre()
         {
+            //var service = new Service();
+
             var offre = new Offre();
             AppContexte app = new AppContexte();
             app.Offres.Add(offre);

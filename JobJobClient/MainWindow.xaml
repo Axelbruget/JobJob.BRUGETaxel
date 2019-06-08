@@ -1,0 +1,22 @@
+﻿<Window x:Class="JobJobClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.s.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:my="clr-namespace:JobJobClient.Views"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50px"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <DockPanel Background="green">
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontSize="26" Foreground="White">JobJob</Label>
+        </DockPanel>
+        <my:ListeOffre Grid.Row="1" DataContext="{Binding ListeOffreViewModel}"></my:ListeOffre>
+    </Grid>
+</Window>

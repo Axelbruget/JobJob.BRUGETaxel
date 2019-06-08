@@ -1,0 +1,17 @@
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\bin\Debug\Database1.mdf
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\bin\Debug\Database1_log.ldf
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\bin\Debug\JobJobService.dll.config
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\bin\Debug\JobJobService.dll
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\bin\Debug\JobJobService.pdb
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\bin\Debug\EntityFramework.dll
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\bin\Debug\JobJobClass.dll
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\bin\Debug\JobJobClass.pdb
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\bin\Debug\JobJobClass.dll.config
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\bin\Debug\EntityFramework.xml
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\obj\Debug\JobJobService.csprojAssemblyReference.cache
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\obj\Debug\JobJobService.csproj.CoreCompileInputs.cache
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\obj\Debug\JobJobService.csproj.CopyComplete
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\obj\Debug\JobJobService.dll
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobService\obj\Debug\JobJobService.pdb

@@ -7,7 +7,6 @@ C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobClass\bin\Debug\EntityFramewo
 C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobClass\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobClass\bin\Debug\EntityFramework.xml
 C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobClass\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobClass\obj\Debug\JobJobClass.csprojAssemblyReference.cache
 C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobClass\obj\Debug\JobJobClass.csproj.CoreCompileInputs.cache
 C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobClass\obj\Debug\JobJobClass.csproj.CopyComplete
 C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobClass\obj\Debug\JobJobClass.dll
