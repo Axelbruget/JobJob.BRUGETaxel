@@ -19,17 +19,17 @@ namespace JobJobASPNET
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
 
-            routes.MapRoute(
-                name: "List",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Offre", action = "List", id = UrlParameter.Optional }
-            );
+            //routes.MapRoute(
+            //    name: "List",
+            //    url: "{controller}/{action}/{id}",
+            //    defaults: new { controller = "Offre", action = "List", id = UrlParameter.Optional }
+            //);
 
-            routes.MapRoute(
-                name: "Details",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Offre", action = "Details", id = UrlParameter.Optional }
-            );
+            //routes.MapRoute(
+            //    name: "Details",
+            //    url: "{controller}/{action}/{id}",
+            //    defaults: new { controller = "Offre", action = "Details", id = UrlParameter.Optional }
+            //);
         }
     }
 }

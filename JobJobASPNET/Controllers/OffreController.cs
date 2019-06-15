@@ -3,6 +3,7 @@ using JobJobClass.Entity;
 using JobJobService;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
@@ -22,19 +23,57 @@ namespace JobJobASPNET.Controllers
             return View(getDetails(id));
         }
 
+        public ActionResult Edit(int id)
+        {
+            return View(getDetails(id));
+        }
+        public ActionResult Delete(int id)
+        {
+            return View(getDetails(id));
+        }
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost, ActionName("Edit")]
+        [ValidateAntiForgeryToken]
+        public ActionResult EditConfirmed(OffreViewModel offreViewModel)
+        {
+            Offre offre = OffreVMToOffre(offreViewModel);
+            service.updateOffre(offre);
+            return RedirectToAction("List");
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            Offre offre = service.getOffre(id);
+            service.removeOffre(offre);
+            return RedirectToAction("List");
+        }
+
+        [HttpPost]
+        public ActionResult Create(OffreViewModel offreViewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                Offre offre = OffreVMToOffre(offreViewModel);
+                service.addOffre(offre);
+                return RedirectToAction("List");
+            }
+            else
+            {
+                return View(offreViewModel);
+            }
+        }
+
         public OffreViewModel getDetails(int id)
         {
             OffreViewModel offreViewModel = new OffreViewModel();
             try{
-                Offre offre = service.getOffre(id);
-                offreViewModel.Date = offre.Date;
-                offreViewModel.Description = offre.Description;
-                offreViewModel.Id = offre.Id;
-                offreViewModel.Intitule = offre.Intitule;
-                offreViewModel.Responsable = offre.Responsable;
-                offreViewModel.Salaire = offre.Salaire;
-                offreViewModel.Statut = offre.Statut;
-                offreViewModel.StatutId = offre.StatutId;
+                offreViewModel = OffreToOffreVM(service.getOffre(id));
             }
             catch (Exception e)
             {
@@ -49,16 +88,7 @@ namespace JobJobASPNET.Controllers
                 List<Offre> listOffres = service.getOffres();
                 foreach(Offre offre in listOffres)
                 {
-                    OffreViewModel offreViewModel = new OffreViewModel();
-                    offreViewModel.Date = offre.Date;
-                    offreViewModel.Description = offre.Description;
-                    offreViewModel.Id = offre.Id;
-                    offreViewModel.Intitule = offre.Intitule;
-                    offreViewModel.Responsable = offre.Responsable;
-                    offreViewModel.Salaire = offre.Salaire;
-                    offreViewModel.Statut = offre.Statut;
-                    offreViewModel.StatutId = offre.StatutId;
-                    listeOffreViewModel.Add(offreViewModel);
+                    listeOffreViewModel.Add(OffreToOffreVM(offre));
                 }
             }catch(Exception e)
             {
@@ -80,19 +110,38 @@ namespace JobJobASPNET.Controllers
 
             foreach (Offre offre in listeOffre)
             {
-                OffreViewModel offreViewModel = new OffreViewModel();
-                offreViewModel.Date = offre.Date;
-                offreViewModel.Description = offre.Description;
-                offreViewModel.Id = offre.Id;
-                offreViewModel.Intitule = offre.Intitule;
-                offreViewModel.Responsable = offre.Responsable;
-                offreViewModel.Salaire = offre.Salaire;
-                offreViewModel.Statut = offre.Statut;
-                offreViewModel.StatutId = offre.StatutId;
-                listeOffreViewModel.Add(offreViewModel);
+                listeOffreViewModel.Add(OffreToOffreVM(offre));
             }
 
             return View(listeOffreViewModel);
+        }
+
+        public OffreViewModel OffreToOffreVM(Offre offre)
+        {
+            OffreViewModel offreViewModel = new OffreViewModel();
+            offreViewModel.Date = offre.Date;
+            offreViewModel.Description = offre.Description;
+            offreViewModel.Id = offre.Id;
+            offreViewModel.Intitule = offre.Intitule;
+            offreViewModel.Responsable = offre.Responsable;
+            offreViewModel.Salaire = offre.Salaire;
+            offreViewModel.Statut = offre.Statut;
+            offreViewModel.StatutId = offre.StatutId;
+            return offreViewModel;
+        }
+
+        public Offre OffreVMToOffre(OffreViewModel offreViewModel)
+        {
+            Offre offre = new Offre();
+            offre.Date = offreViewModel.Date;
+            offre.Description = offreViewModel.Description;
+            offre.Id = offreViewModel.Id;
+            offre.Intitule = offreViewModel.Intitule;
+            offre.Responsable = offreViewModel.Responsable;
+            offre.Salaire = offreViewModel.Salaire;
+            offre.Statut = offreViewModel.Statut;
+            offre.StatutId = offreViewModel.StatutId;
+            return offre;
         }
     }
 }

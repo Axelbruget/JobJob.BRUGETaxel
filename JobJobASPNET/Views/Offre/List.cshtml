@@ -1,8 +1,8 @@
 ﻿@model IEnumerable<JobJobASPNET.Models.OffreViewModel>
 
-<p>
+<button type="button" class="btn btn-default">
     @Html.ActionLink("Créer une nouvelle offre", "Create")
-</p>
+</button>
 <form asp-controller="Offre" asp-action="SearchOffre" method="get">
     <p>
         Intitule :<input type="text" name="SearchString">
