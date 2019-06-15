@@ -11,3 +11,4 @@ C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobClass\obj\Debug\JobJobClass.c
 C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobClass\obj\Debug\JobJobClass.csproj.CopyComplete
 C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobClass\obj\Debug\JobJobClass.dll
 C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobClass\obj\Debug\JobJobClass.pdb
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobClass\obj\Debug\JobJobClass.csprojAssemblyReference.cache

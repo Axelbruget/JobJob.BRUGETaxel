@@ -337,6 +337,36 @@ namespace JobJobService
                 Console.WriteLine("Ce libelle n'existe pas en base");
             }
         }
+
+        public Employe getEmploye(int id)
+        {
+            return this.contexte.Employes.Where(e => e.Id == id).FirstOrDefault();
+        }
+
+        public Experience getExperience(int id)
+        {
+            return this.contexte.Experiences.Where(e => e.Id == id).FirstOrDefault();
+        }
+
+        public Formation getFormation(int id)
+        {
+            return this.contexte.Formations.Where(e => e.Id == id).FirstOrDefault();
+        }
+
+        public Offre getOffre(int id)
+        {
+            return this.contexte.Offres.Where(e => e.Id == id).FirstOrDefault();
+        }
+
+        public Postulation getPostulation(int id)
+        {
+            return this.contexte.Postulations.Where(e => e.Id == id).FirstOrDefault();
+        }
+
+        public Statut getStatut(int id)
+        {
+            return this.contexte.Statuts.Where(e => e.Id == id).FirstOrDefault();
+        }
     }
 
 }

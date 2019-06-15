@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobJobService", "JobJobServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobJobClient", "JobJobClient\JobJobClient.csproj", "{4D03D1B5-884E-4616-8B93-474C44C3A382}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobJobASPNET", "JobJobASPNET\JobJobASPNET.csproj", "{FF8671AE-5D59-455F-A054-CE6AF8572335}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4D03D1B5-884E-4616-8B93-474C44C3A382}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D03D1B5-884E-4616-8B93-474C44C3A382}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D03D1B5-884E-4616-8B93-474C44C3A382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF8671AE-5D59-455F-A054-CE6AF8572335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8671AE-5D59-455F-A054-CE6AF8572335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF8671AE-5D59-455F-A054-CE6AF8572335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8671AE-5D59-455F-A054-CE6AF8572335}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
