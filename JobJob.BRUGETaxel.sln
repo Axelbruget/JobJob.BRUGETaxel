@@ -15,6 +15,29 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobJobClient", "JobJobClien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobJobASPNET", "JobJobASPNET\JobJobASPNET.csproj", "{FF8671AE-5D59-455F-A054-CE6AF8572335}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "JobJobWCF", "JobJobWCF\", "{5AEE347E-9DEC-4DB3-B46C-3836152C0EC3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{d566aa6f-67c8-4d27-aca2-e01423343504}|JobJobClass.dll;{86b55a97-2d35-481d-8a70-340f87a6e244}|JobJobService.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56977"
+		Debug.AspNetCompiler.PhysicalPath = "JobJobWCF\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56977\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56977"
+		Release.AspNetCompiler.PhysicalPath = "JobJobWCF\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56977\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56977"
+		SlnRelativePath = "JobJobWCF\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +68,10 @@ Global
 		{FF8671AE-5D59-455F-A054-CE6AF8572335}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF8671AE-5D59-455F-A054-CE6AF8572335}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF8671AE-5D59-455F-A054-CE6AF8572335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AEE347E-9DEC-4DB3-B46C-3836152C0EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AEE347E-9DEC-4DB3-B46C-3836152C0EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AEE347E-9DEC-4DB3-B46C-3836152C0EC3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AEE347E-9DEC-4DB3-B46C-3836152C0EC3}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
