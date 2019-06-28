@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ServiceInterface.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="UnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -68,6 +68,10 @@
     <ProjectReference Include="..\JobJobClass\JobJobClass.csproj">
       <Project>{d566aa6f-67c8-4d27-aca2-e01423343504}</Project>
       <Name>JobJobClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JobJobService\JobJobService.csproj">
+      <Project>{86b55a97-2d35-481d-8a70-340f87a6e244}</Project>
+      <Name>JobJobService</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

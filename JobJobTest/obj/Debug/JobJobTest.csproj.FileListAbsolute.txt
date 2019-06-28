@@ -25,3 +25,6 @@ C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobTest\obj\Debug\JobJobTest.csp
 C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobTest\obj\Debug\JobJobTest.csproj.CopyComplete
 C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobTest\obj\Debug\JobJobTest.dll
 C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobTest\obj\Debug\JobJobTest.pdb
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobTest\bin\Debug\JobJobService.dll
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobTest\bin\Debug\JobJobService.pdb
+C:\Users\Axel\source\repos\JobJob.BRUGETaxel\JobJobTest\bin\Debug\JobJobService.dll.config
